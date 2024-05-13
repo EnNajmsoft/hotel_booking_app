@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827766596316",
+    "project_id": "hotelappuser1",
+    "storage_bucket": "hotelappuser1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827766596316:android:74e2b64e7833196c01ca19",
+        "android_client_info": {
+          "package_name": "com.hoteluser.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKWILukJb2KzzsTRqJCmel-SiA2APU6Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+name: HotelAppUser
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_switch: ^0.3.2
+  country_pickers: ^2.0.0
+  smooth_page_indicator: ^1.0.0+2
+  pin_code_fields: ^7.3.0
+  grouped_list: ^5.1.2
+  google_maps_flutter: ^2.2.6
+  flutter_rating_bar: ^4.0.0
+  table_calendar: ^3.0.6
+  flutter_svg_provider: ^1.0.3
+  intl: ^0.17.0
+  url_launcher: 6.0.20
+  dartz: ^0.10.1
+  lottie: ^2.3.2
+  shared_preferences: ^2.1.1
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  image_picker: ^0.8.7+5
+  file_picker: ^5.3.1
+  drop_down_list: ^0.0.4
+  rating_dialog: ^2.0.4
+  photo_view: ^0.14.0
+  gallery_saver: ^2.3.2
+  firebase_messaging: ^14.6.2
+  firebase_core : ^2.13.1
+  flutter_local_notifications: ^14.1.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/lottie/
+  
+  fonts: 
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/UrbanistSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UrbanistRomanBlack.ttf
+          weight: 900
+    - family: Source Sans Pro
+      fonts: 
+        - asset: assets/fonts/SourceSansProSemiBold.ttf
+          weight: 600
