@@ -3,9 +3,6 @@ workflows:
     name: Android build with automatic maintenance
     environment:
       flutter: stable
-      android:
-        api_level: 34
-        build_tools_version: "34.0.0"
     scripts:
       - name: Clean project
         script: flutter clean
@@ -17,7 +14,3 @@ workflows:
         script: flutter build appbundle --debug
     artifacts:
       - build/app/outputs/bundle/release/app.aab
-    notifications:
-      slack:
-        webhook_url: $SLACK_WEBHOOK_URL
-        message: "Build status: $BUILD_STATUS"
